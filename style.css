@@ -1,0 +1,143 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+
+body {
+  background-image: url(https://idata.over-blog.com/2/03/49/75/Johnny-Hallyday-a-Bercy/JOHNNY-HALLYDAY-BERCY-15.jpg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+
+}
+h1 {
+  color: #080808;
+  font-weight: 900;
+  font-size: 60px;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+img {
+  height: 200px;
+  border-radius: 10%;
+}
+
+h2 {
+  color: rgb(226, 211, 211);
+}
+
+h1, h2 {
+  font-family: 'Antonio', sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-family: "Coda Caption", sans-serif;
+  color: #e7e9f1;
+  font-size: 25px;
+}
+
+.btn-purple {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #232429;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 10 300px 300px rgba(233, 229, 229, 0.1);
+  font-size: 40px;
+}
+
+
+
+.btn-purple:hover {
+  margin-bottom: 600px;
+  color: #eff0f3;
+}
+
+#txt_debut_page {
+  margin-bottom: 500px;
+  color: #eff0f3;
+}
+
+#txt2_debut_page {
+  margin-bottom: 600px;
+  color: #eff0f3;
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  font-size: 50px;
+}
+
+div {
+  background-image: url(https://www.3wallpapers.fr/wp-content/uploads/2016/04/Loup-Loup-Pleine-Lune-3Wallpapers-iPhone-Parallax.jpg);
+  background-size: cover;
+  padding: 32px;
+  margin: 24px auto;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 100px 100px rgba(247, 232, 232, 0.1);
+  border-radius: 100px;
+}
+
+#debut {
+  background-image: url(https://i.pinimg.com/originals/a3/4a/44/a34a44e038299788c5a869dc48e2fbb5.gif);
+  background-size: cover;
+  padding: 32px;
+  margin: 44px auto;
+  height: 900px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 0 100px 100px rgba(31, 29, 29, 0.1);
+  border-radius: 0px;
+}
+
+#wow {
+  background-image: url(https://www.francetvinfo.fr/pictures/EuGV2cjEqT0mHKiGSBqjF9XUiqg/752x423/2019/04/11/eddymitchelljacquesdutroncjohnnyhallyday.jpg);
+  padding: 32px;
+  margin: 24px auto;
+  width: 700px;
+  text-align: center;
+  box-shadow: 0 100px 100px rgba(247, 232, 232, 0.1);
+  border-radius: 0px;
+}
+
+#video {
+  padding: 32px;
+  margin: 24px auto;
+  width: 700px;
+  text-align: center;
+  box-shadow: 0 100px 100px rgba(247, 232, 232, 0.1);
+  border-radius: 0px;
+}
+
+#johny {
+  background-image: url(http://www.photogriffon.com/photos-du-monde/Les-plus-belles-photos-de-johnny-hallyday/johnny-hallyday-tres-classe-pendentif-croix-copyright-photo-DR.jpg);
+  padding: 32px;
+  margin: 24px auto;
+  width: 700px;
+  text-align: center;
+  box-shadow: 0 100px 100px rgba(192, 38, 38, 0.1);
+  border-radius: 0px;
+}
+#tweet {
+  background-image: url(https://france3-regions.francetvinfo.fr/image/t46SUvWJcpXgEa3GZrZwdAxOdXc/600x400/regions/2020/06/09/5edf4253e0de3_johnny-epernay2009-3387657.jpg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 32px;
+  margin: 24px auto;
+  width: 700px;
+  text-align: center;
+  box-shadow: 0 100px 100px rgba(240, 236, 236, 0.1);
+  border-radius: 0px;
+}
+#paragraph-withmargin {
+  margin-bottom: 350px;
+  color: #e1e3e7;
+  font-size: 50px;
+}
